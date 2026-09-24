@@ -38,8 +38,8 @@ body {
 
     position: absolute;
 
-    left: 70px;
-    bottom: 70px;
+    right: 70px;
+    bottom: 300px;
 
     width: 1050px;
     min-height: 190px;
@@ -90,7 +90,7 @@ body {
     opacity: 0;
 
     transform:
-        translateX(-140px);
+        translateX(140px);
 
 }
 
@@ -200,23 +200,6 @@ body {
     gap: 14px;
 
     margin-bottom: 8px;
-
-}
-
-
-/* =========================================================
-   SEATING
-========================================================= */
-
-.seat {
-
-    color: #43d9ac;
-
-    font-size: 18px;
-
-    font-weight: 800;
-
-    letter-spacing: 2px;
 
 }
 

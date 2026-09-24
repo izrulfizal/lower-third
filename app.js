@@ -25,11 +25,6 @@ const lowerThird =
         "lowerThird"
     );
 
-const seatEl =
-    document.getElementById(
-        "seat"
-    );
-
 const nameEl =
     document.getElementById(
         "studentName"
@@ -55,8 +50,6 @@ const awardEl =
 // STATE
 // =========================================================
 
-let currentSeat = null;
-
 let animationTimer = null;
 
 
@@ -65,9 +58,6 @@ let animationTimer = null;
 // =========================================================
 
 function setStudentData(student) {
-
-    seatEl.textContent =
-        student.seating || "";
 
     nameEl.textContent =
         student.student_name || "";
@@ -162,9 +152,6 @@ function showLowerThird(student) {
 
     }
 
-
-    currentSeat =
-        student.seating;
 
 }
 
